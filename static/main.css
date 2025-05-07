@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(216, 117, 208);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, serif; 
+}
+
+.calc {
+    background-color: #6871c4;
+    font-size: large;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 300px;
+    text-align: center;
+    height: 20%;
+}
+
+#form_text {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    width: 300px;
+    border: 1px solid #4ec5c9;
+    border-radius: 4px;  
+    box-sizing: border-box;
+}
