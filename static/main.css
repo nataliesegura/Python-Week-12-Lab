@@ -1,5 +1,9 @@
+:root {
+    --lol: rgb(21, 6, 75);
+}
+
 body {
-    background-color: rgb(216, 117, 208);
+    background-color: var(--lol);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,7 +12,7 @@ body {
 }
 
 .calc {
-    background-color: #6871c4;
+    background-color: #5563e9;
     font-size: large;
     width: 50%;
     padding: 20px;

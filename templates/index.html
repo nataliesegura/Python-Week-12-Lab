@@ -10,7 +10,7 @@
     <div class="calc">
         <h1>Reverse Polish Notation Calculator</h1>
         <form method="POST" action="/">
-            <input type="text" id="form_text" placeholder="Enter RPN expression" value="{{ user_input or '' }}">
+            <input type="text" name="expression" id="form_text" placeholder="Enter RPN expression" value="{{ user_input or '' }}">
             <input type="submit" value="Calculate">
         </form>
     
